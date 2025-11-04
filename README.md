@@ -7,10 +7,16 @@ Prosty przykład pokazujący, jak uruchomić **backend (.NET 8 Web API)** i **fr
 ## Jak uruchomić?
 
 ```
-Git bash:
+1. Git bash:
 git clone https://github.com/TymekSon/TestApp.git
 
-W terminalu w folderze projektu:
+2. Pobierz docker:
+Pobierz instalator z oficjalnej strony: https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe
+
+3. W terminalu:
+sprawdź wersję: docker --version
+
+4. W terminalu w folderze projektu:
 docker-compose up --build
 
 Frontend: http://localhost:8080
