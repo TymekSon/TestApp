@@ -10,3 +10,6 @@ Prosty przykład pokazujący, jak uruchomić **backend (.NET 8 Web API)** i **fr
 git clone <twoje-repo>
 cd my-docker-demo
 docker-compose up --build
+
+Frontend: http://localhost:8080
+API: http://localhost:5000/api/weatherforecast
