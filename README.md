@@ -6,9 +6,11 @@ Prosty przykład pokazujący, jak uruchomić **backend (.NET 8 Web API)** i **fr
 
 ## Jak uruchomić?
 
-```bash
-git clone <twoje-repo>
-cd my-docker-demo
+```
+Git bash:
+git clone https://github.com/TymekSon/TestApp.git
+
+W terminalu w folderze projektu:
 docker-compose up --build
 
 Frontend: http://localhost:8080
